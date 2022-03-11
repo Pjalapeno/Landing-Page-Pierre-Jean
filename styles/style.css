@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100&family=Source+Serif+Pro:ital,wght@0,200;0,400;1,200;1,300;1,400&display=swap');
+@import url("banner.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("footer.css");
+
+
+
+
+
+
+a{
+	text-decoration: none;
+}
+
+body {
+	font-family: "Fredoka";
+	margin: 0;
+	background-color: white;
+}
+
+h2{
+	font-family: "Poppins";
+	color: white;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+ #logo {
+ display:block;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+}
+
+h1{
+	color: rgb(187, 189, 191);
+	font-family: "Poppins";
+	background-color: blue
+	font-size:3px;
+	text-orientation: left;
+}
+h6{
+	font-family: "Poppins";
+	color: rgb(150, 131, 236);
+	text-align: center;
+}
+
+h4{
+	font-family: "Poppins";
+	color: rgb(150, 131, 236);
+	text-align: center;
+}
+
+
+h3{
+	color: rgb(46, 0, 108);
+	font-family: "Poppins";
+	font-size:30px;
+	text-align: center;
+}
+
+.menu{
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+}
+.menu a{
+	font-family: 'Poppins';
+	font-weight: bolder;
+	color: rgb(150, 131, 236);
+	background-color: white;
+	display: inline;
+	margin: 0px 25px;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: white;
+	background-color: #BBBDBF;
+	padding: 15px 10px;
+}
+
+.container2{
+width: 80%;
+margin: 0 auto;
+}
+
+p{
+	color: #B9D8D5
+}
+
+.list-inline {
+		padding: 0;
+		list-style: none;
+		color: white
+}
+
+	.list-inline li {
+		display: inline;
+		margin: 0 16px;
+		font-size: 40px;
+}
+
+.fa-brands {
+	color: rgba(0,0,0,4);
+}
+
+.fa-brands:hover{
+	color: black;
+}
